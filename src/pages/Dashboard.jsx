@@ -12,7 +12,7 @@ const Dashboard = () => {
         <div className="flex flex-col h-full">
             <Navbar />
 
-            <div className="flex-1 overflow-y-auto px-6 pb-20 pt-10">
+            <div className="flex-1 overflow-y-auto px-4 sm:px-6 pb-24 sm:pb-20 pt-6 sm:pt-10">
                 <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -21,7 +21,7 @@ const Dashboard = () => {
                     <GlowOrb />
 
                     <div className="text-center mb-12">
-                        <h1 className="text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
+                        <h1 className="text-3xl sm:text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
                             <b>Good Morning , </b><span className="text-white font-semibold"> Kaanthaa...</span>
                         </h1>
                         <p className="text-[#94a3b8] text-[17px]">

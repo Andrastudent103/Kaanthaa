@@ -18,8 +18,8 @@ const CodeTransformationBox = () => {
     return (
         <div className="w-full max-w-4xl mx-auto bg-[#0f0f13] border border-[#2a2a35] rounded-3xl overflow-hidden focus-within:border-[#6b46c1]/50 focus-within:shadow-glow-primary transition-all duration-300">
 
-            <div className="flex items-center justify-between p-4 border-b border-[#2a2a35]">
-                <div className="flex items-center gap-6">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 border-b border-[#2a2a35] gap-4 sm:gap-0">
+                <div className="flex items-center gap-4 sm:gap-6 w-full sm:w-auto justify-between sm:justify-start">
                     <div className="flex flex-col gap-1 cursor-pointer">
                         <span className="text-[10px] uppercase font-bold text-[#94a3b8] tracking-widest">TRANSLATE</span>
                         <div className="flex items-center gap-2 text-sm text-white font-medium">
@@ -37,7 +37,7 @@ const CodeTransformationBox = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 w-full sm:w-auto justify-start sm:justify-end">
                     <button className="text-[10px] uppercase font-bold bg-[#1a1a24] text-[#94a3b8] hover:text-white px-4 py-2 rounded-full border border-[#2a2a35] transition-colors tracking-widest">Report</button>
                     <button className="text-[10px] uppercase font-bold bg-[#1a1a24] text-[#94a3b8] hover:text-white px-4 py-2 rounded-full border border-[#2a2a35] transition-colors tracking-widest">Perf</button>
                 </div>

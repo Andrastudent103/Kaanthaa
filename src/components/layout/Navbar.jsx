@@ -22,7 +22,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <header className="h-20 px-8 flex items-center justify-between w-full bg-[#0a0a0c]/80 backdrop-blur-md sticky top-0 z-40 border-b border-[#2a2a35]/50">
+        <header className="h-20 px-4 md:px-8 flex items-center justify-between w-full bg-[#0a0a0c]/80 backdrop-blur-md sticky top-0 z-40 border-b border-[#2a2a35]/50">
             <div className="flex items-center relative" ref={dropdownRef}>
                 <button
                     onClick={() => setIsOpen(!isOpen)}
