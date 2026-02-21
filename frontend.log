@@ -1,0 +1,301 @@
+
+> aura-engine@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 190 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+5:32:56 PM [vite] (client) hmr update /src/styles/globals.css, /src/components/layout/Navbar.jsx
+5:32:57 PM [vite] (client) hmr update /src/styles/globals.css, /src/components/layout/Sidebar.jsx
+5:33:10 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Translator.jsx
+5:33:12 PM [vite] (client) hmr update /src/styles/globals.css, /src/components/dashboard/CodeTransformationBox.jsx
+5:33:34 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Login.jsx
+5:33:36 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Login.jsx
+5:33:53 PM [vite] (client) hmr update /src/App.jsx, /src/styles/globals.css
+5:35:12 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Settings.jsx
+5:35:29 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Profile.jsx
+5:35:45 PM [vite] (client) page reload src/pages/Profile.jsx
+5:36:19 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:36:19 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:36:21 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:36:24 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:36:48 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:36:48 PM [vite] Internal server error: /Users/apple/Downloads/Aravind's Project/aura-engine/src/pages/Dashboard.jsx: Unexpected token (25:41)
+
+  23 |                     <div className="text-center mb-12">
+  24 |                         <h1 className="text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
+> 25 |                             <Good Evening, <span className="text-white font-semibold">{user.firstName}Kaanthaa.</span>
+     |                                          ^
+  26 |                         </h1>
+  27 |                         <p className="text-[#94a3b8] text-[17px]">
+  28 |                             How can the engine assist you today?
+  Plugin: vite:react-babel
+  File: /Users/apple/Downloads/Aravind's Project/aura-engine/src/pages/Dashboard.jsx:25:41
+  23 |                      <div className="text-center mb-12">
+  24 |                          <h1 className="text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
+  25 |                              <Good Evening, <span className="text-white font-semibold">{user.firstName}Kaanthaa.</span>
+     |                                           ^
+  26 |                          </h1>
+  27 |                          <p className="text-[#94a3b8] text-[17px]">
+      at constructor (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseAttribute (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4652:22)
+      at JSXParserMixin.jsxParseOpeningElementAfterName (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4667:28)
+      at JSXParserMixin.jsxParseOpeningElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4662:17)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12075:10)
+5:36:48 PM [vite] Internal server error: /Users/apple/Downloads/Aravind's Project/aura-engine/src/pages/Dashboard.jsx: Unexpected token (25:41)
+
+  23 |                     <div className="text-center mb-12">
+  24 |                         <h1 className="text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
+> 25 |                             <Good Evening, <span className="text-white font-semibold">{user.firstName}Kaanthaa.</span>
+     |                                          ^
+  26 |                         </h1>
+  27 |                         <p className="text-[#94a3b8] text-[17px]">
+  28 |                             How can the engine assist you today?
+  Plugin: vite:react-babel
+  File: /Users/apple/Downloads/Aravind's Project/aura-engine/src/pages/Dashboard.jsx:25:41
+  23 |                      <div className="text-center mb-12">
+  24 |                          <h1 className="text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
+  25 |                              <Good Evening, <span className="text-white font-semibold">{user.firstName}Kaanthaa.</span>
+     |                                           ^
+  26 |                          </h1>
+  27 |                          <p className="text-[#94a3b8] text-[17px]">
+      at constructor (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseAttribute (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4652:22)
+      at JSXParserMixin.jsxParseOpeningElementAfterName (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4667:28)
+      at JSXParserMixin.jsxParseOpeningElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4662:17)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12075:10)
+5:36:50 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:37:04 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:37:04 PM [vite] Internal server error: /Users/apple/Downloads/Aravind's Project/aura-engine/src/pages/Dashboard.jsx: Expected corresponding JSX closing tag for <h1>. (25:49)
+
+  23 |                     <div className="text-center mb-12">
+  24 |                         <h1 className="text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
+> 25 |                             <b></b>Good Evening, </b><span className="text-white font-semibold">{user.firstName}Kaanthaa.</span>
+     |                                                  ^
+  26 |                         </h1>
+  27 |                         <p className="text-[#94a3b8] text-[17px]">
+  28 |                             How can the engine assist you today?
+  Plugin: vite:react-babel
+  File: /Users/apple/Downloads/Aravind's Project/aura-engine/src/pages/Dashboard.jsx:25:49
+  23 |                      <div className="text-center mb-12">
+  24 |                          <h1 className="text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
+  25 |                              <b></b>Good Evening, </b><span className="text-white font-semibold">{user.firstName}Kaant...
+     |                                                   ^
+  26 |                          </h1>
+  27 |                          <p className="text-[#94a3b8] text-[17px]">
+      at constructor (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4727:16)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11687:12)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+5:37:04 PM [vite] Internal server error: /Users/apple/Downloads/Aravind's Project/aura-engine/src/pages/Dashboard.jsx: Expected corresponding JSX closing tag for <h1>. (25:49)
+
+  23 |                     <div className="text-center mb-12">
+  24 |                         <h1 className="text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
+> 25 |                             <b></b>Good Evening, </b><span className="text-white font-semibold">{user.firstName}Kaanthaa.</span>
+     |                                                  ^
+  26 |                         </h1>
+  27 |                         <p className="text-[#94a3b8] text-[17px]">
+  28 |                             How can the engine assist you today?
+  Plugin: vite:react-babel
+  File: /Users/apple/Downloads/Aravind's Project/aura-engine/src/pages/Dashboard.jsx:25:49
+  23 |                      <div className="text-center mb-12">
+  24 |                          <h1 className="text-[40px] font-medium tracking-tight mb-2 text-[#e2e8f0]">
+  25 |                              <b></b>Good Evening, </b><span className="text-white font-semibold">{user.firstName}Kaant...
+     |                                                   ^
+  26 |                          </h1>
+  27 |                          <p className="text-[#94a3b8] text-[17px]">
+      at constructor (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4727:16)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11687:12)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/apple/Downloads/Aravind's Project/aura-engine/node_modules/@babel/parser/lib/index.js:10899:61)
+5:37:09 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:37:12 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:37:18 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:37:25 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:37:42 PM [vite] (client) hmr update /src/styles/globals.css, /src/pages/Dashboard.jsx
+5:40:44 PM [vite] (client) hmr update /src/styles/globals.css, /src/components/layout/Navbar.jsx
